@@ -1,0 +1,179 @@
+/*Big tablet*/
+
+@media screen and (max-width: 1024px) {
+    .about .left {
+        float: none;
+    }
+    .about .right {
+        float: none;
+    }
+    .about .address {
+        margin-top: 15px;
+        padding: 0;
+    }
+    h1 {
+        padding-top: 50px;
+    }
+    .project {
+        margin-bottom: 100px;
+    }
+    .testimonials-section {
+        height: auto;
+        padding-bottom: 70px;
+    }
+    .testimonials-section .row {
+        font-size: 80%;
+        max-width: 800px;
+    }
+    .contact {
+        padding-top: 50px;
+        padding-bottom: 150px;
+    }
+    .contact .detail {
+        padding-top: 75px;
+        padding-bottom: 0;
+    }
+    .nav-brand {
+        padding-left: 50px;
+    }
+    .nav-toggler {
+        display: none;
+    }
+}
+
+
+/*Small phone and small tablet*/
+
+@media screen and (max-width: 767px) {
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    html {
+        font-size: 80%;
+    }
+    .about .info {
+        display: block;
+        width: 100%;
+    }
+    .about .skill {
+        width: 100%;
+        padding: 0;
+        margin: 20px 0;
+    }
+    .about .address {
+        clear: both;
+    }
+    .testimonials-section .row {
+        padding: 0 100px;
+    }
+    .project .col {
+        width: 100%;
+    }
+    .testimonials-section .col {
+        width: 100%;
+        padding: 20px 0;
+    }
+    .testimonials-section cite {
+        margin: 10px;
+    }
+    .testimonials-section blockquote {
+        font-size: 140%;
+    }
+    .contact .info {
+        width: 100%;
+        justify-content: left;
+        margin-left: 30%;
+    }
+    .contact .detail {
+        display: block;
+        width: 100%;
+    }
+    .contact h5,
+    .contact h6 {
+        font-size: 120%;
+    }
+    footer {
+        font-size: 150%;
+    }
+    .sponsors-section {
+        height: auto;
+    }
+    .sponsors-section .row {
+        padding-bottom: 100px;
+    }
+    .sponsors-showcase .logo-sponsors {
+        width: 130px;
+        height: 130px;
+    }
+    .nav-brand {
+        padding-left: 50px;
+    }
+    .nav-toggler {
+        display: block;
+    }
+}
+
+
+/*Small phone*/
+
+@media screen and (max-width: 480px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .main-nav {
+        display: none;
+        padding-right: 50px;
+    }
+    .nav-brand {
+        font-size: 120%;
+        padding-left: 50px;
+    }
+    .nav {
+        padding: 0.7rem 0.7rem;
+    }
+    .about-cont {
+        margin: 30px;
+    }
+    .project {
+        margin: 30px;
+    }
+    .project .col {
+        margin: 10px 0;
+    }
+    .testimonials-section .row {
+        padding: 0 30px;
+    }
+    .testimonials-section {
+        padding-bottom: 30px;
+    }
+    .sponsors-showcase li {
+        width: 100%;
+    }
+    .sponsors-showcase {
+        margin-left: 0;
+    }
+    .sponsors-section .row {
+        padding-bottom: 30px;
+    }
+    .sponsors-section h1 {
+        margin-bottom: 50px;
+    }
+    .contact .info {
+        margin: 0 auto;
+        padding-left: 70px;
+    }
+    .contact h5,
+    .contact h6 {
+        font-size: 110%;
+    }
+    .nav-brand {
+        padding-left: 50px;
+    }
+    .nav-toggler {
+        display: block;
+    }
+}
